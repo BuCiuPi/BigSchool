@@ -1,0 +1,65 @@
+﻿@model IEnumerable<BigSchoolProject.Models.Course>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="row">
+    <ul class="course">
+        @foreach (var item in Model)
+        {
+            <li>
+                <div class="date">
+                    <div class="month">
+                        @item.DateTime.ToString("MM")
+                    </div>
+                    <div class="day">
+                        @item.DateTime.ToString("dd")
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <span class="lecture">
+                        @item.LectureName
+                    </span>
+                    <span class="category">
+                        @item.Category.Name
+                    </span>
+                    <button data-course-id="@item.Id" class="btn btn-default btn-sm js-tongle-attendance">Going?</button>
+                </div>
+
+
+            </li>
+        }
+    </ul>
+
+    @section scripts{
+        <script>
+            $(document).ready(function () {
+                $(".js-tongle-attendance").click(function (e) {
+                    var button = $(e.target);
+                    $.post("/api/attendances", { Id: button.attr("data-course-id") })
+                        .done(function () {
+                            alert("Register course secessfully!")
+                            button
+                                .removeClass("btn-default")
+                                .addClass("btn-info")
+                                .text("Going");
+                        }).fail(function () {
+                            alert("fail")
+                        });
+                });
+            });
+        </script>
+    }
+</div>
+    
