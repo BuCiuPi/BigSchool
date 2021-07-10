@@ -15,7 +15,7 @@ namespace BigSchoolProject.Controllers
         {
 
         }
-
+        // add atten to data basse / them lop hoc duoc theo doi database
         public IHttpActionResult Attend(Course attendanceDto)
         {
             var userID = User.Identity.GetUserId();

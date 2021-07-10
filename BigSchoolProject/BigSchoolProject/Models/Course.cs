@@ -20,6 +20,10 @@ namespace BigSchoolProject.Models
         [StringLength(128)]
         public string LectureId { get; set; }
 
+        public string LectureName;
+
+        public List<Category> ListCategory;
+
         [Required]
         [StringLength(255)]
         public string Place { get; set; }
@@ -28,15 +32,10 @@ namespace BigSchoolProject.Models
 
         public int? CategloryID { get; set; }
 
-        public List<Category> ListCategory = new List<Category>();
-
-        public string LectureName;
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Attendance> Attendances { get; set; }
 
         public virtual Category Category { get; set; }
 
-        
     }
 }

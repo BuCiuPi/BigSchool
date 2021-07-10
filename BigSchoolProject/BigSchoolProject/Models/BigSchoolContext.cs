@@ -26,8 +26,7 @@ namespace BigSchoolProject.Models
             modelBuilder.Entity<Course>()
                 .HasMany(e => e.Attendances)
                 .WithRequired(e => e.Course)
-                .HasForeignKey(e => e.CouseId)
-                .WillCascadeOnDelete(false);
+                .HasForeignKey(e => e.CouseId);
         }
     }
 }
