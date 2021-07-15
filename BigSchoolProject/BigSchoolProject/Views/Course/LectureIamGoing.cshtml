@@ -1,37 +1,30 @@
 ﻿@model IEnumerable<BigSchoolProject.Models.Course>
 
 @{
-    ViewBag.Title = "Attending";
+    ViewBag.Title = "LectureIamGoing";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Attending</h2>
+<h2>LectureIamGoing</h2>
 
 <div class="row">
     <ul class="course">
-        @foreach (var item in Model)
+        @foreach (var course in Model)
         {
             <li>
                 <div class="date">
                     <div class="month">
-                        @item.DateTime.ToString("MM")
+                        @course.DateTime.ToString("MM")
                     </div>
                     <div class="day">
-                        @item.DateTime.ToString("dd")
+                        @course.DateTime.ToString("dd")
                     </div>
-
                 </div>
-
                 <div class="details">
-                    <span class="lecture">
-                        @item.Name
-                    </span>
-                    <span class="category">
-                        @item.Category.Name
-                    </span>
+                    <span class="lecture">@course.Name</span>
+                    <br />
+                    <span class="category">@course.Category.Name</span>
                 </div>
-
-
             </li>
         }
     </ul>

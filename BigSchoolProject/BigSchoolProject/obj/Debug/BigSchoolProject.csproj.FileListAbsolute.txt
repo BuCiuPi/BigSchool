@@ -112,6 +112,7 @@ D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchoolProject\BigSchoolProject\bin\Sys
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchoolProject\BigSchoolProject\bin\System.Net.Http.Formatting.xml
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchoolProject\BigSchoolProject\bin\System.Web.Http.xml
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchoolProject\BigSchoolProject\bin\System.Web.Http.WebHost.xml
+D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\BigSchoolProject.dll.config
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\BigSchoolProject.dll
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\BigSchoolProject.pdb
@@ -126,7 +127,6 @@ D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProje
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.CSharp.Core.targets
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
@@ -221,8 +221,8 @@ D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProje
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\Microsoft.Owin.Security.OAuth.xml
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\obj\Debug\BigSchoolProject.csproj.AssemblyReference.cache
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\obj\Debug\BigSchoolProject.csproj.CoreCompileInputs.cache
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\obj\Debug\BigSchoolProject.csproj.CopyComplete
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\obj\Debug\BigSchoolProject.dll
 D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\obj\Debug\BigSchoolProject.pdb
+D:\LapTrinhWeb\thuc hanh lap trinh web\BigSchool\BigSchoolProject\BigSchoolProject\obj\Debug\BigSchoolProject.csproj.AssemblyReference.cache

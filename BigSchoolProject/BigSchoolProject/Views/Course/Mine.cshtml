@@ -23,18 +23,19 @@
 
                 <div class="details">
                     <span class="lecture">
-                        @item.LectureName
+                        @item.Name
                     </span>
                     <span class="category">
                         @item.Category.Name
                     </span>
                 </div>
                 <div class="action">
-                    @Html.ActionLink("Edit", "Edit" ,"Course", new { id = item.Id }, null) | 
-                    @Html.ActionLink("Delete", "Delete" ,"Course", new { id = item.Id }, null)
+                        @Html.ActionLink("Edit", "Edit" ,"Course", new { id = item.Id }, null) |
+                        @Html.ActionLink("Delete", "Delete" ,"Course", new { id = item.Id }, null)
                 </div>
 
             </li>
         }
     </ul>
 </div>
+

@@ -17,12 +17,9 @@ namespace BigSchoolProject.Models
 
         public int Id { get; set; }
 
+        [Required]
         [StringLength(128)]
         public string LectureId { get; set; }
-
-        public string LectureName;
-
-        public List<Category> ListCategory;
 
         [Required]
         [StringLength(255)]
@@ -30,12 +27,17 @@ namespace BigSchoolProject.Models
 
         public DateTime DateTime { get; set; }
 
-        public int? CategloryID { get; set; }
+        public int CategloryID { get; set; }
+
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Attendance> Attendances { get; set; }
 
         public virtual Category Category { get; set; }
-
+        public string Name;
+        public List<Category> ListCategory;
+        public bool isLogin;
+        public bool isShowGoing;
+        public bool isShowFollow;
     }
 }
