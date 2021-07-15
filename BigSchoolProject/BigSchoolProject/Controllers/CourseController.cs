@@ -26,25 +26,22 @@ namespace BigSchoolProject.Controllers
             foreach(Course i in upcommingCourse)
 
             {
-                //tìm Name của user từ lectureid
-                ApplicationUser user =
 
-                System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>(
-                ).FindById(i.LectureId);
+                ApplicationUser user =System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(i.LectureId);
                 i.Name = user.Name;
-                //lấy ds tham gia khóa học
+
                 if (userID != null)
 
                 {
                     i.isLogin = true;
-                    //ktra user đó chưa tham gia khóa học
+
 
                     Attendance find = context.Attendances.FirstOrDefault(p =>
 
                     p.CouseId == i.Id && p.Attendee == userID);
                     if (find == null)
                         i.isShowGoing = true;
-                    //ktra user đã theo dõi giảng viên của khóa học ?
+
 
                     following findFollow = context.followings.FirstOrDefault(p =>
 
